@@ -19,9 +19,9 @@ const Intro = () => {
         
         <div className="i-icons">
             
-            <a href='https://github.com/ploynatsinee'> <img src={Github} alt="" style={{ height: "40px" }}/>
+            <a href='https://github.com/ploynatsinee'> <img src={Github} alt="" style={{ height: "42px" }}/>
             </a>
-            <a href='https://www.linkedin.com/in/natsinee-tanapornrat-11998a217/'> <img src={Linkedin} alt="" style={{ height: "40px" }} />
+            <a href='https://www.linkedin.com/in/natsinee-tanapornrat-11998a217/'> <img src={Linkedin} alt="" style={{ height: "42px" }} />
             </a>
             
         </div>
