@@ -1,0 +1,91 @@
+.intro {
+    display: flex;
+    height: 77vh;
+
+    background-color: rgb(254, 254, 254);
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1) 
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name >:nth-child(2)
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name >:nth-child(3)
+{
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.projectgit {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+.i-button {
+    width: 6rem;
+    height: 2.4rem;
+    margin-bottom: 0px;
+    
+}
+
+.i-icons {
+    margin-top: 1px;
+    display: flex;
+    gap: 2rem;
+    z-index: 2;
+    font-size: 1px;
+}
+
+.i-icons>* {
+    margin:0;
+    padding: 0;
+}
+
+.i-icons>* {
+    cursor: pointer;
+}
+
+.i-icons .img {
+    width: 4px;
+    
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right>* {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    margin-left: 5rem;
+}
+
