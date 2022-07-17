@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import Linux from '../../img/linux.png'
+import {BrowserRouter as Router, Link} from 'react-router-dom';;
 
 function Navbar() {
   return (

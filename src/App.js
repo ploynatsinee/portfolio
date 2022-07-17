@@ -5,14 +5,17 @@ import Intro from '../src/Component/Navbar/Intro/Intro';
 import Skill from '../src/Component/Skill/Skill';
 import Project from '../src/Component/Project/Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      
       <Navbar />
       <Intro />
       <Skill />
       <Project />
+    
     </div>
   );
 }
