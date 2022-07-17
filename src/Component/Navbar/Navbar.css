@@ -33,6 +33,7 @@
 
 .n-list {
     flex: 10;
+    margin-top: 15px;
 }
 
 .n-list>ul{

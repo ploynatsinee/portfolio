@@ -1,8 +1,35 @@
 .project {
     display: flex;
     background: rgb(254,254,254);
-    background: linear-gradient(180deg, rgba(254,254,254,1) 20%, #bbb5e6 100%);
-   
+    background: linear-gradient(180deg, rgba(254,254,254,1) 15%, #bbb5e6 100%);
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    display: flex;
+    gap: 1rem;
+    margin: 1.9rem;
+    border-radius: 10px;
+    border: rgb(253, 253, 253) solid 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardbody {
+    border-radius: 10px;
+    border: none;
+
 }
 
 
+
+.cardtitle {
+    color: var(--darkBlue);
+    font-weight: bolder;
+}
+
+.img-project {
+    height: 40px;
+    margin-right: 8px;
+}
