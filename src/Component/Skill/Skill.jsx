@@ -4,7 +4,7 @@ import './Skill.css';
 
 const Skill = () => {
     return (
-    <div className="skill">
+    <div className="skill" id="Skill">
         <div className="header-skill">
             <span>Skills</span>
         </div>

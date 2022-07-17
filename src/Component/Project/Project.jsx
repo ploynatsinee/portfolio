@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 const Project = () => {
     return (
-      <div className="project ">
+      <div className="project " id="Project">
           <Card style={{ width: '18rem' }} className="Card">
           <Card.Body className='cardbody'>
             <Card.Title className='cardtitle'>User Lists</Card.Title>

@@ -7,6 +7,8 @@ import Project from '../src/Component/Project/Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Routes, Route, Link } from "react-router-dom";
 import Contact from '../src/Component/Contact/Contact';
+// import { HashLinkPage } from './components/HashLinkPage';
+
 
 function App() {
   return (
@@ -17,9 +19,10 @@ function App() {
       <Skill />
       <Project />
       <Contact />
-    
+     
     </div>
   );
 }
 
 export default App;
+

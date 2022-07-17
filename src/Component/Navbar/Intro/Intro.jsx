@@ -3,10 +3,11 @@ import './Intro.css';
 import Github from '../../../img/github.png';
 import Linkedin from '../../../img/linkedin.png';
 import Space from '../../../img/space.gif';
+import {Link} from 'react-scroll';
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="Intro">
         <div className="i-left">
         <div className="i-name">
             <span>Hi! I Am</span> <span>Natsinee Tanapornrat </span>
@@ -14,9 +15,9 @@ const Intro = () => {
         </div>
 
         <div className='projectgit'>
-
+        <Link spy={true} to="Project">
         <button className=" button i-button">Project</button>
-        
+        </Link>
         <div className="i-icons">
             
             <a href='https://github.com/ploynatsinee'> <img src={Github} alt="" style={{ height: "42px" }}/>
