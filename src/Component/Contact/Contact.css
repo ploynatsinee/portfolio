@@ -1,0 +1,61 @@
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.w-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.awesome {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 3rem;
+    gap: 30px;
+}
+
+.c-left>form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    margin:5px;
+    align-items: center;
+    right: 100%;
+    margin-top: 35px;
+    margin-bottom: 5rem;
+}
+
+.c-left>form>input {
+    width: 300px;
+    padding: 5px;
+    border-width: 1.4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    
+}
+
+.button-submit {
+    
+    border: black 1px solid;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    background: #604fcd;
+    margin-top: 20px;
+}
+
+.message {
+    height: 4rem;
+}
