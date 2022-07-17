@@ -6,6 +6,7 @@ import Skill from '../src/Component/Skill/Skill';
 import Project from '../src/Component/Project/Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Routes, Route, Link } from "react-router-dom";
+import Contact from '../src/Component/Contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <Skill />
       <Project />
+      <Contact />
     
     </div>
   );
