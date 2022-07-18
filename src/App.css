@@ -1,6 +1,8 @@
 .App {
   overflow: hidden;
-  /* color: var(--black); */
+  /* display: flex;
+  flex-direction: column; */
+  /* row-gap: 10em; */
 }
 
 .App-logo {
