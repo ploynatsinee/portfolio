@@ -46,10 +46,10 @@ const Project = () => {
         </Card>
         <Card style={{ width: '18rem' }} className="Card">
           <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>Jamming</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Music website with API</Card.Subtitle>
+            <Card.Title className='cardtitle'>FitFriends</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Exercise website</Card.Subtitle>
             <Card.Text>
-            Project use React with JavaScript to build a Music website with API.<br></br><br></br>
+            Project use React with JavaScript to build Social Media Exercise website. I'm working on it. Expected finish in August.<br></br><br></br>
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </Card.Text>
