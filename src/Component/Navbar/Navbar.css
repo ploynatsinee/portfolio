@@ -64,3 +64,30 @@
     color:white;
 }
 
+@media only screen and (max-width:950px) {
+    .n-left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:654px) {
+    .n-left {
+        display: none;
+    }
+    .n-list>ul{
+        color: var(--gray);
+        display: flex;
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+    .button-contactme {
+       display: none;
+    }
+    
+    .button-resume {
+        background-color: white;
+        color: var(--purple);
+        border: var(--purple) solid 1.5px;
+        height: 42px;
+    }
+}

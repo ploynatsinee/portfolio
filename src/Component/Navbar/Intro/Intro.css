@@ -89,3 +89,50 @@
     margin-left: 5rem;
 }
 
+@media only screen and (max-width:950px) {
+    .i-name>:nth-child(1) 
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.i-name >:nth-child(2)
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.i-name >:nth-child(3)
+{
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 16px;
+    margin-top:9px;
+}
+}
+
+@media only screen and (max-width:654px) {
+    .i-name>:nth-child(1) 
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.i-name >:nth-child(2)
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.i-name >:nth-child(3)
+{
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 16px;
+    margin-top:9px;
+}
+}

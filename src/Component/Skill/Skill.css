@@ -29,3 +29,87 @@
     margin-top: 3rem;
 }
 
+@media only screen and (max-width:950px) {
+    .header-skill {
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    .skill-top {
+        display: flex;
+        flex-direction: row;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 2.5rem;
+        gap:2.5rem;
+        margin-left: 15%;
+        margin-top: 3rem;
+    }
+    
+    .skill-bottom {
+        display: flex;
+        flex-direction: row;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 100px;
+        gap:2.5rem;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width:691px) {
+    .header-skill {
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    .skill-top {
+        display: flex;
+        flex-direction: row;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 2.5rem;
+        gap:2.5rem;
+        margin-left: 15%;
+        margin-top: 3rem;
+    }
+    
+    .skill-bottom {
+        display: flex;
+        flex-direction: row;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 100px;
+        gap:2.5rem;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .skill-top {
+        display: flex;
+        flex-direction: row;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 2.5rem;
+        gap:1rem;
+        margin-left: 10%;
+        margin-top: 3rem;
+    }
+    
+    .skill-bottom {
+        display: flex;
+        flex-direction: row;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 100px;
+        gap:1rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3rem;
+    }
+}

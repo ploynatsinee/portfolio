@@ -33,7 +33,7 @@ function Navbar() {
             <button className='button button-contactme'>Contact Me</button> 
                 </Link>
             
-            <button className='button button-resume'>Resume</button>
+            <a href='https://drive.google.com/file/d/1-EksKnbXjcT-4O97YFMlojSig9CXQHGg/view?usp=sharing'><button className='button button-resume'>Resume</button></a>
             
         </div>
     </div>
