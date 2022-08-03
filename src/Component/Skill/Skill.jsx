@@ -37,8 +37,9 @@ const Skill = () => {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
         </div>
       </div>
+      <br></br>
       <div className="header-skill">
-        <span>Projects</span>
+        <span className="headproject">Projects</span>
       </div>
     </div>
   );

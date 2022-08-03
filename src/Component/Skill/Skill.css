@@ -36,6 +36,10 @@
     
 }
 
+.headproject {
+    margin-top: 3rem;
+}
+
 @media only screen and (max-width:950px) {
     .header-skill {
         font-size: 2rem;
