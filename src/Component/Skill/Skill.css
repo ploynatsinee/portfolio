@@ -5,6 +5,15 @@
     text-align: center;
 }
 
+.skill-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 2rem;
+}
+
 .skill-top {
     display: flex;
     flex-direction: row;
@@ -12,8 +21,8 @@
     height: 95px;
     margin-bottom: 2.5rem;
     gap:2.5rem;
-    margin-left: 15%;
-    margin-top: 3rem;
+    justify-content: center;
+    
 }
 
 .skill-bottom {
@@ -23,9 +32,8 @@
     height: 95px;
     margin-bottom: 100px;
     gap:2.5rem;
-    margin-left: 15%;
-    margin-right: 10%;
-    margin-top: 3rem;
+    justify-content: center;
+    
 }
 
 @media only screen and (max-width:950px) {
@@ -41,8 +49,7 @@
         height: 55px;
         margin-bottom: 2.5rem;
         gap:2.5rem;
-        margin-left: 15%;
-        margin-top: 3rem;
+        
     }
     
     .skill-bottom {
@@ -52,9 +59,7 @@
         height: 55px;
         margin-bottom: 100px;
         gap:2.5rem;
-        margin-left: 15%;
-        margin-right: 10%;
-        margin-top: 3rem;
+       
     }
 }
 
@@ -71,8 +76,7 @@
         height: 55px;
         margin-bottom: 2.5rem;
         gap:2.5rem;
-        margin-left: 15%;
-        margin-top: 3rem;
+       
     }
     
     .skill-bottom {
@@ -82,9 +86,8 @@
         height: 55px;
         margin-bottom: 100px;
         gap:2.5rem;
-        margin-left: 15%;
-        margin-right: 10%;
-        margin-top: 3rem;
+        
+       
     }
 }
 
@@ -96,8 +99,7 @@
         height: 45px;
         margin-bottom: 2.5rem;
         gap:1rem;
-        margin-left: 10%;
-        margin-top: 3rem;
+       
     }
     
     .skill-bottom {
@@ -107,8 +109,6 @@
         height: 45px;
         margin-bottom: 100px;
         gap:1rem;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 3rem;
+       
     }
 }
