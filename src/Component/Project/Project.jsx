@@ -8,6 +8,19 @@ const Project = () => {
       <div className="project " id="Project">
           <Card style={{ width: '18rem' }} className="Card">
           <Card.Body className='cardbody'>
+            <Card.Title className='cardtitle'>Generate QR-code</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">QR-code for mobile banking</Card.Subtitle>
+            <Card.Text>
+            Users can input their phone number, prices of meals and number of people to share in this meal. so you can generate QR code and scan with Mobile banking. This program will automatic calculate the prices of meals for you.<br></br><br></br>
+            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+            </Card.Text>
+            <Card.Link href="https://github.com/ploynatsinee/generateQR-code-forMobileBanking">See on Github</Card.Link>
+            
+          </Card.Body>
+        </Card>
+          <Card style={{ width: '18rem' }} className="Card">
+          <Card.Body className='cardbody'>
             <Card.Title className='cardtitle'>User Lists</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">API website</Card.Subtitle>
             <Card.Text>
@@ -52,8 +65,11 @@ const Project = () => {
             Project use MERN Stack with JavaScript to build Social Media Exercise website. I'm working on it. Expected finish in August.<br></br><br></br>
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
+            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
             </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee">See on Github</Card.Link>
+            <Card.Link href="https://github.com/ploynatsinee/Finalproject-FitFriends">See on Github</Card.Link>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }} className="Card">
