@@ -78,7 +78,6 @@
 }
 
 .i-right {
-    
     flex: 1;
     position: relative;
 }
@@ -88,8 +87,7 @@
     width: 25rem;
     height: 25rem;
     z-index: 1;
-    
-    margin-left: 5rem;
+    margin-left: 9rem;
 }
 
 @media only screen and (max-width:870px) {
