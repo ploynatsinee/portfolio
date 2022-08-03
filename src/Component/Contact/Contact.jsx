@@ -24,7 +24,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-  };
+      e.target.reset()
+  }; 
 
   return (
     <div className="contact-form" id="Contact">
