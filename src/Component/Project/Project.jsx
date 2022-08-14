@@ -11,7 +11,7 @@ const Project = () => {
             <Card.Title className='cardtitle'>Generate QR-code</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">QR-code for mobile banking</Card.Subtitle>
             <Card.Text>
-            Youmcan input phone number, prices of meals and total of people to share in this meal. This program will automatic calculate the prices of meals for you.<br></br><br></br>
+            You can input phone number, prices of meals and total of people to share in this meal. This program will automatic calculate the prices of meals for you.<br></br><br></br>
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
             <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
             </Card.Text>
