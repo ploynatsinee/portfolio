@@ -8,7 +8,7 @@ const Skill = () => {
         <span>Skills</span>
       </div>
       <div className="skill-icons">
-        <strong>Programing Languages</strong> JavaScript, Typescript, HTML5, CSS, SQL, JSON
+        <strong>Programming Languages</strong> JavaScript, Typescript, HTML5, CSS, SQL, JSON
         <br></br>
         <strong>Backend Libraries & Framework</strong> NodeJS, ExpressJS, NextJS
         <br></br>
