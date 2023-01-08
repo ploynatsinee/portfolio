@@ -1,92 +1,63 @@
-import React from 'react';
-import './Project.css';
-import Card from 'react-bootstrap/Card';
-
+import React from "react";
+import "./Project.css";
+import Card from "react-bootstrap/Card";
 
 const Project = () => {
-    return (
-      <div className="project " id="Project">
-          <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>Generate QR-code</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">QR-code for mobile banking</Card.Subtitle>
-            <Card.Text>
-            You can input phone number, prices of meals and total of people to share in this meal. This program will automatic calculate the prices of meals for you.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/generateQR-code-forMobileBanking">See on Github</Card.Link>
-            
-          </Card.Body>
-        </Card>
-          <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>User Lists</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">API website</Card.Subtitle>
-            <Card.Text>
-            Project use React with JavaScript to build list of user data with Rest API.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/React---REST-API-UserLists">See on Github</Card.Link>
-            
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>Go Thailand</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Travel website</Card.Subtitle>
-            <Card.Text>
-            Project use HTML5, CSS, JavaScript to build "Go Thailand" travel website.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/HTML-CSS-JS-goThailand-">See on Github</Card.Link>
-            {/* <Card.Link href="#">Another Link</Card.Link> */}
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>Build RESTFUL API</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Students data</Card.Subtitle>
-            <Card.Text>
-            Project in Go programing Languages to build RESTFUL API of students data.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/ProjectRESTful-API-StudentsData-with-Go-and-Gin">See on Github</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>FitFriends</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Exercise website</Card.Subtitle>
-            <Card.Text>
-            Project use MERN Stack with JavaScript to build Social Media Exercise website. I'm working on it. Expected finish in August.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/Finalproject-FitFriends">See on Github</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }} className="Card">
-          <Card.Body className='cardbody'>
-            <Card.Title className='cardtitle'>TeaCozy</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">bakery shop website</Card.Subtitle>
-            <Card.Text>
-            Project use HTML5, CSS to build a frontend of bakery shop website.<br></br><br></br>
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-            <img className='img-project' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            </Card.Text>
-            <Card.Link href="https://github.com/ploynatsinee/html-css-teacozy">See on Github</Card.Link>
-          </Card.Body>
-        </Card>
-        
+  return (
+    <div className="project " id="Project">
+      <Card style={{ width: "18rem" }} className="Card">
+        <Card.Body className="cardbody">
+          <Card.Title className="cardtitle">
+            Wep App with Authentication and SMTP Server
+          </Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            QTo-do App with Authentication and SMTP Server
+          </Card.Subtitle>
+          <Card.Text>
+            Created a Full-Stack web application with Backend authentication
+            service to handle user authentication like sign up, sign in and sign
+            out with cookie JSON Web Token and SMTP Server for validation email
+            with end-to end test with cypress.<br></br>
+            <br></br>
+            <br></br>
+            <strong>Tech Stack</strong>
+            <br></br>
+            NextJS, Typescript, Javascript, React, PosegresSQL, Docker, Cypress
+          </Card.Text>
+          <Card.Link href="https://github.com/ploynatsinee/todo-nextjs-natsinee">
+            See on Github
+          </Card.Link>
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "18rem" }} className="Card">
+        <Card.Body className="cardbody">
+          <Card.Title className="cardtitle">
+            Activity tracker: Fit friends
+          </Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            Activity tracker web site
+          </Card.Subtitle>
+          <Card.Text>
+            Created a Full-stack web application with full CRUD functionality
+            built using react, mongoDB, and mongoose where users can keep track
+            of their exercise habits. This website make the users experience of
+            working out seamless and attractive as well as changed the exercise
+            to be an enjoyable habit.<br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <strong>Tech Stack</strong>
+            <br></br>
+            NodeJS, ReactJS, Javascript, MongoDB, Fixma
+          </Card.Text>
+          <Card.Link href="https://github.com/ploynatsinee/Finalproject-FitFriends-Frontend">
+            <br></br>
+            See on Github
+          </Card.Link>
+        </Card.Body>
+      </Card>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

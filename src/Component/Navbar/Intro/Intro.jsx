@@ -11,7 +11,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           <span>Hi! I Am</span> <span>Natsinee Tanapornrat </span>
-          <span>I'm a software engineer experienced in web developing with a background in digital marketing and customer-services marketing. I'm self-motivated and effective at time management. I would like to improve quality of life of the people in society with technology as well.</span>
+          <span>I'm experienced in Full-stack web development with container technologies such as Docker and am interested in cloud technology. I’m self-motivated and effective at time management. I can work in a scrum and agile environment and look forward to working with a company that creates innovations for society. Apart from contributing innovative and edge-cutting things to the world, I would like to improve the quality of life of the people in the community with technology as well.</span>
         </div>
 
         <div className='projectgit'>
