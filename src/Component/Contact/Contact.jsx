@@ -24,8 +24,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
-  }; 
+    e.target.reset()
+  };
 
   return (
     <div className="contact-form" id="Contact">
@@ -51,7 +51,7 @@ const Contact = () => {
           />
           <input
             type="message"
-            name="user"
+            name="message"
             className="message"
             placeholder="Message"
           />
