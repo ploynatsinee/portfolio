@@ -1,30 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import Alerts from "../Alert/Alert";
 
 const Contact = () => {
-  const form = useRef();
+  const [alert, setAlert] = useState(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    try {
+      const result = await emailjs.sendForm(
         "service_81t2y0k",
         "template_e7qldft",
-        form.current,
+        e.target,
         "gKHmbaPasEQfTpuzM"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
       );
-    e.target.reset()
+
+      setAlert(
+        <Alerts severity="success" text="Message sent successfully" />
+      );
+      e.target.reset();
+      return result;
+    } catch (error) {
+      setAlert(
+        <Alerts
+          severity="error"
+          text="Some error occurred. Please try again later." />
+      );
+      console.log(error);
+    }
   };
 
   return (
@@ -36,7 +41,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="c-left">
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
           <input
             type="text"
             name="user_name"
@@ -56,6 +61,7 @@ const Contact = () => {
             placeholder="Message"
           />
           <input type="submit" value="Send" className="button-submit" />
+          {alert}
         </form>
       </div>
     </div>
